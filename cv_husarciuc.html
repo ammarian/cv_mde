@@ -1,5 +1,10 @@
 <!-- HTML = HyperText Markup Language este folosit pentru structură -->
 <!-- CSS = Cascading Style Sheet este folosit pentru stil -->
+<!-- CSS-ul poate fi aplicat în cel puțin trei maniere:
+    1. prin definirea unui stil în linie (inline)
+    2. prin definirea unui stil intern (în interiorul unei pagini)
+    3. prin definirea unui fișier de stil extern (în exteriorul paginilor HTML)
+ -->
 <!-- Acesta este un comentariu în HTML -->
 <!-- boilerplate - șablon de pagină web se obține automat în ATOM când introduceți html -->
 
@@ -13,13 +18,27 @@
     <!-- &#128540; reprezintă codul unui emoji. &# este eticheta de început, iar ; este eticheta de sfârșit, iar 128540 reprezintă codul respectivului emoji -->
     <!-- codurile zecimale pentru emoji-uri se găsesc aici https://www.w3schools.com/charsets/ref_emoji_smileys.asp -->
     <title>&#128540; CV Husarciuc George</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+  <!--
+    Codificarea RGB (roșu-verde-albastru) presupune combinarea celor trei culori:
+    - #FF0000; reprezintă roșu (celelalte două componente sunt estompate)
+    - #00FF00; reprezintă verde (celelalte două componente sunt estompate)
+    - #0000FF; reprezintă albastru (celelalte două componente sunt estompate)
+    - #000000; reprezintă negru
+    - #FFFFFF; reprezintă alb
+
+   -->
+
+    <style media="screen">
+    </style>
+
   </head>
 
   <!-- body = corpul paginii -->
   <body>
     <left>
-      <img style="img {border-radius:20%;}" src="https://scontent-otp1-1.xx.fbcdn.net/v/t1.6435-9/120394897_1230128820719269_5571432389756973034_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=HaJdDthAWH8AX8NrMOU&_nc_ht=scontent-otp1-1.xx&oh=00_AT94JMAZqtr1IYcvXFQXj113FZFxtEvU8SXYB9fEr74dlg&oe=6258EFB1" width="150" height="150">
-
+      <img src="https://scontent-otp1-1.xx.fbcdn.net/v/t1.6435-9/120394897_1230128820719269_5571432389756973034_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=HaJdDthAWH8AX8NrMOU&_nc_ht=scontent-otp1-1.xx&oh=00_AT94JMAZqtr1IYcvXFQXj113FZFxtEvU8SXYB9fEr74dlg&oe=6258EFB1" width="150" height="150">
+    <h1> Mihai-Georgel HUSARCIUC</h1>
     <!--
     table repr. eticheta unei table
     th repr. table head eticheta pentru antetul unei table
